@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+.itemsList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+}
+
+.textFormat {
+    text-decoration: none;
+    color:gray;
+    font: italic 18px Arial, serif;  
+    display: block;
+    
+}
+.textCross {
+    text-decoration: line-through;
+}
+
+.itemsList > li {
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.buttonContainer {
+    padding-top: 10px;
+}
